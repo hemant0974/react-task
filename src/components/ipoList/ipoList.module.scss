@@ -1,0 +1,26 @@
+.ipoListWrapper {
+  margin-top: 1.5rem;
+  padding: 0 1rem;
+  width: 100%;
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    thead {
+      tr {
+        border-radius: 16px;
+        background-color: lightgrey;
+        td {
+          padding: 1rem 0;
+          width: 25%;
+          text-align: center;
+          &:first-child {
+            border-radius: 16px 0 0 16px;
+          }
+          &:last-child {
+            border-radius: 0 16px 16px 0;
+          }
+        }
+      }
+    }
+  }
+}
